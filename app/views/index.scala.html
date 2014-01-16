@@ -1,7 +1,13 @@
 @(message: String)
 
-@main("Welcome to Play") {
+@main("Scala Playground") {
 
-    @play20.welcome(message)
+  <h1>@message</h1>
+
+  <ul>
+    <li><a href='/simple_async'>Simple Async</a></li>
+    <li><a href='/invoices/123'>Static Invoice API</a></li>
+    <li><a href='/invoices_async/123'>Indirect Invoice API</a></li>
+  </li>
 
 }
